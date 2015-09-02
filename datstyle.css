@@ -1,0 +1,30 @@
+html * {
+  box-sizing: border-box;
+}
+.crop {
+  background-image: url('http://cs628119.vk.me/v628119319/10059/Ag3oy3YU6wY.jpg');
+  width: 200px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.details {
+  position: absolute;
+  bottom: -70%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  transition: all 1s;
+  color: white;
+}
+.crop:hover > .details {
+  bottom: 0;
+}
+i {
+	font-size: 2em;
+}
